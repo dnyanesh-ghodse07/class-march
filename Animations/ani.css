@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.line{
+    width: 200px;
+    height: 4px;
+    background: #000;
+    animation: spin infinite 2s 3s;
+}
+
+@keyframes spin {
+    0%{
+        /* width: 100px; */
+        background-color: orange;
+        transform: rotate(45deg);
+    }
+    50%{
+        /* width: 200px; */
+        background-color: green;
+        transform: rotate(90deg);
+
+    }
+    100%{
+        /* width: 100px; */
+        background-color: blue;
+        transform: rotate(120deg);
+    }
+}

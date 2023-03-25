@@ -1,0 +1,57 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container .card{
+    width: 400px;
+    height: 300px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.close{
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.close:hover{
+    color: red;
+}
+
+.btn{
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.save{
+    background: lightskyblue;
+    color: #fff;
+}
+.save:hover{
+    background: rgb(73, 179, 244);
+
+}
+
+.cancel{
+    color: #fff;
+    background-color: rgba(248, 114, 114, 0.746);
+}
+.cancel:hover{
+    background-color: rgba(237, 53, 53, 0.746);
+}
