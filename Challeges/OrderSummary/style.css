@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(67, 222, 183),rgba(232, 85, 12, 0.892));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card_img img{
+    width: 100%;
+}
+
+.card_details{
+    text-align: center;
+}
+
+.card_details .title{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card_details .desc{
+    color: rgb(175, 173, 173);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    background: rgba(234, 246, 251, 0.724);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.icon-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    padding: 10px;
+    background: rgb(159, 231, 232);
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(6, 60, 108);
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.plan .price{
+    color: rgb(173, 170, 170);
+}
+
+.change{
+
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.payment{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(66, 66, 223, 0.904);
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.cancel{
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    color: lightslategray;
+}
